@@ -43,10 +43,26 @@ h1{width:100%; font-size:36px; color:#747474; text-align:center;}
 .templatemo_serviceicon{background:#008cca; color:#ffffff; width:80px; height:80px; margin:0 auto; border-radius:5px; font-size:40px; line-height:80px; text-align:center;}
 .templatemo_service_title{font-size:18px; margin:15px 0 5px 0; color:#575757;}
 
+.container_workbox {
+	background-color: #e2e2e2;
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 100%;
+	box-sizing: border-box;
+	justify-content: space-between;
+	padding: 20px;
+
+}
+
+
 .templatemo_workwrapper{width:100%; padding:70px 0 50px 0; text-align:center;}
 .templatemo_workmargin{margin-bottom:50px;}
-.templatemo_workbox{float:left;}
-.templatemo_workbox img{width:100%;}
+
+.templatemo_workbox img{width:0%;  }
+.templatemo_workbox img:hover {
+	
+}
 .templatemo_worktitle{margin-top:15%; font-size:18px; font-weight:bold; color:#ffffff;}
 .templatemo_workdes{color:#ffffff; margin-top:10px;}
 .templatemo_worklink{padding:25px; font-size:30px; background:#e2826a; display:inline-block; border-radius:3px; text-align:center; margin-top:10px;}
@@ -91,11 +107,14 @@ Flexslider Overrides
 /*------------------------------------------------------
 Gallery Styles 
 --------------------------------------------------------*/
-.gallery-item{margin-bottom:0; position:relative; overflow:hidden;}
+.gallery-item{margin-bottom:0; position:relative; margin:10px}
 .gallery-item .content-gallery{text-align:center;}
 .gallery-item .content-gallery h3{color:#b10021; font-size:16px; font-weight:300; margin-top:5px; padding-bottom:5px; display:inline-block;}
-.gallery-item img{width:100%; border:1px solid #008cca}
-.gallery-item .overlay{position:absolute; top:0; left:0; width:100%; min-width:100%; min-height:100%; height:100%; background-color:rgba(229,97,66,0.9); display:block; -webkit-transition:all 50ms ease-in-out; -moz-transition:all 50ms ease-in-out; -ms-transition:all 50ms ease-in-out; -o-transition:all 50ms ease-in-out; transition:all 50ms ease-in-out;}
+.gallery-item img{width:100%; border:3px solid #fff; transition: 0.5s;}
+.gallery-item img:hover{
+	border:7px solid #008cca;
+	cursor: pointer;
+}
 .gallery-item .overlay a{color:#ffffff; text-align:center; line-height:32px; position:absolute; margin-top:-16px; margin-left:-10px; font-size:24px;}
 
 /*------------------------------------------------------
