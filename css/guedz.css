@@ -1,3 +1,31 @@
+.whatsapp {
+	background-color: rgb(16, 187, 16);
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	margin-right: 20px;
+	border: 1px solid #fff;
+	
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ig{
+	color: #008cca;
+}
+.whatsapp:hover {
+	cursor: pointer;
+	border: 3px solid #fff;
+
+}
+.nome_mat{
+	font-weight: bold;
+}
+
+
+
 .logo_main {
   width:150px
 }
