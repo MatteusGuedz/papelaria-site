@@ -50,7 +50,7 @@ h1{width:100%; font-size:36px; color:#747474; text-align:center;}
 
 	width: 100%;
 	box-sizing: border-box;
-	justify-content: space-between;
+	justify-content: center;
 	padding: 20px;
 
 }
